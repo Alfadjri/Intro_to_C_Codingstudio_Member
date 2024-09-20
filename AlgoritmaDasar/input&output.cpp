@@ -2,7 +2,8 @@
 using namespace std;
 
 int main(){
-    // valiabel 
+    // valiabe
+    // Ini data testing
     char nama_user[35];
     // case kita mau ambil nama user
     cout << "Belajar input program C++" << endl;
