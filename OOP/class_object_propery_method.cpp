@@ -7,12 +7,12 @@ class Mobil{ // ini di sebut class mobil
         string warna_mobil; // ini disebut object
         string jenis_mobil; // ini disebut object
     // fungsi ini ada 2 tipe 
-    // yang mengeluarkan nilai
-    int penjumlahan(){
+    
+    int penjumlahan(){ // yang mengeluarkan nilai
         return 1 + 1;
     };
-    //  tidak mengeluarkan nilai
-    void suara_mobil(){
+    
+    void suara_mobil(){ //  tidak mengeluarkan nilai
         cout << "Fummmmzzzzzzzz" << endl;
     };
 };
