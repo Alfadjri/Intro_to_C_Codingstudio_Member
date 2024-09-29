@@ -43,5 +43,6 @@
         "variant": "cpp",
         "algorithm": "cpp",
         "iomanip": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }

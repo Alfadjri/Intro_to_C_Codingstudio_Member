@@ -15,6 +15,9 @@ int main(){
     cout << "INI contoh if else kondisi " << endl; 
     if(pembelian > 2){
         cout << "Error Kamu gak booleh beli lebih dari 2!" << endl;
+        if (pembelian == 3){
+            cout << "Ok ada nomer 3 " << endl;
+        }
     }else{
         cout << "Pembelian berhasil" << endl;
     }
