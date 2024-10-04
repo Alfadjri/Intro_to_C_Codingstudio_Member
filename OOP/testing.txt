@@ -1,0 +1,1 @@
+ini testing.txt di oop
