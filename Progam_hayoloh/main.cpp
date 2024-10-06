@@ -28,39 +28,41 @@ double hitungStandarDeviasi(float data[], int n, double rata_rata) {
 
 int main(){
     int n = 5,k = 3;
-    // cout << "Masukan banyak data n : "; 
-    // cin >> n;
-    // cin.ignore();
-    // cout << "Masukan banyak data k : ";
-    // cin >> k;
-    // cin.ignore();
+    cout << "Masukan banyak data n : "; 
+    cin >> n;
+    cin.ignore();
+    cout << "Masukan banyak data k : ";
+    cin >> k;
+    cin.ignore();
     float data[k][n];
-    // input value
-    // for(int i = 0 ; i < k ; i++){
-    //     cout << "=Masukan data untuk variabel ke-" << i+1 << "=" << endl;
-    //     for(int j = 0 ; j < n ; j++){
-    //         cout << "Variable ke-" << i+1 << ", data ke-" << j+1 << ": " ;
-    //         cin >> data[i][j];
-    //         cin.ignore();
-    //     }
-    // }
-    data[0][0] = 10;
-    data[0][1] = 13.5;
-    data[0][2] = 9;
-    data[0][3] = 8.2;
-    data[0][4] = 19;
+    input value
+    for(int i = 0 ; i < k ; i++){
+        cout << "=Masukan data untuk variabel ke-" << i+1 << "=" << endl;
+        for(int j = 0 ; j < n ; j++){
+            cout << "Variable ke-" << i+1 << ", data ke-" << j+1 << ": " ;
+            cin >> data[i][j];
+            cin.ignore();
+        }
+    }
 
-    data[1][0] = 12;
-    data[1][1] = 143;
-    data[1][2] = 14;
-    data[1][3] = 15.1;
-    data[1][4] = 16;
+    
+    // data[0][0] = 10;
+    // data[0][1] = 13.5;
+    // data[0][2] = 9;
+    // data[0][3] = 8.2;
+    // data[0][4] = 19;
 
-    data[2][0] = 19;
-    data[2][1] = 10;
-    data[2][2] = 13;
-    data[2][3] = 9.1;
-    data[2][4] = 20;
+    // data[1][0] = 12;
+    // data[1][1] = 143;
+    // data[1][2] = 14;
+    // data[1][3] = 15.1;
+    // data[1][4] = 16;
+
+    // data[2][0] = 19;
+    // data[2][1] = 10;
+    // data[2][2] = 13;
+    // data[2][3] = 9.1;
+    // data[2][4] = 20;
     
 
     //  print nilai
